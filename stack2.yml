@@ -1,0 +1,8 @@
+version: '3.6'
+
+services:
+
+  test1:
+    image: alpine
+    env_file:
+      - stack2.env
